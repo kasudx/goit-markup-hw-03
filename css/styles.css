@@ -1,0 +1,171 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+:root {
+  --secondary-text-color: #757575;
+  --background-color: #ffffff;
+  --hover-color: #2196f3;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.nav-elements {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+  color: #212121;
+}
+
+.nav-elements:hover,
+.nav-elements:focus {
+  color: var(--hover-color);
+}
+
+.contact-data {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+.contact-data:hover,
+.contact-data:focus {
+  color: var(--hover-color);
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.footer-contact-data-email {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff99;
+}
+
+.footer-contact-data-.footer-contact-data-email:hover,
+.footer-contact-data-email:focus {
+  color: var(--hover-color);
+}
+.footer-contact-data-number {
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  color: #ffffff99;
+}
+
+.footer-contact-data-number:hover,
+.footer-contact-data-number:focus {
+  color: var(--hover-color);
+}
+
+.footer-street-name {
+  font-size: 14px;
+
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.button-portfolio {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  background-color: #f5f4fa;
+  color: #212121;
+  cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--hover-color);
+}
+
+.button-main-page {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.86;
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.web {
+  color: blue;
+}
+
+.studio {
+  color: black;
+}
+
+.footer-studio {
+  color: #ffffff;
+}
+
+.img-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.img-description {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-text-color);
+}
+
+.menu-images {
+}
+
+.application {
+}
+
+.website {
+}
+
+.design {
+}
+
+.main-page-first-section {
+  background-color: #2f303a;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+.assets-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.assets-description {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+.about-us {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
