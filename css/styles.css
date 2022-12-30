@@ -141,6 +141,9 @@ footer {
 }
 
 .main-page-first-section {
+  width: 1600px;
+  height: 600px;
+  text-align: center;
   background-color: #2f303a;
   font-size: 44px;
   font-weight: 900;
@@ -168,4 +171,12 @@ footer {
 
 .team {
   background-color: #f5f4fa;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+header {
+  border-bottom: solid 1px #ececec;
 }
