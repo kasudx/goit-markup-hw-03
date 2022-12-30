@@ -148,7 +148,9 @@ footer {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
-  color: #dc1919;
+  color: #ffffff;
+  margin: 452 200 452 280;
+  padding-bottom: 30;
 }
 
 .assets-title {
