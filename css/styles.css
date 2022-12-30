@@ -149,14 +149,22 @@ footer {
   font-weight: 900;
   line-height: 1.4;
   color: #ffffff;
-  margin: 452 200 452 280;
+  margin: 452px 200px 452px 280px;
   padding-bottom: 30;
 }
 
+.assets {
+  display: flex;
+  flex-direction: row;
+}
 .assets-title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
+}
+
+.assets > .assets-description:not(:last-child) {
+  margin-right: 30px;
 }
 
 .assets-description {
@@ -181,4 +189,9 @@ footer {
 
 header {
   border-bottom: solid 1px #ececec;
+}
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
