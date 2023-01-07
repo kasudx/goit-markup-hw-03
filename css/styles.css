@@ -6,6 +6,9 @@ body {
 
 .container {
   max-width: 1200px;
+  margin-top: 0;
+
+  margin-bottom: 0;
 }
 
 :root {
@@ -29,7 +32,11 @@ address {
 
 header {
   border-bottom: solid 1px #ececec;
+}
+
+.header-flex {
   display: flex;
+  justify-content: space-between;
 }
 
 .logo-and-nav-el {
@@ -62,10 +69,10 @@ header {
 
 .contacts {
   display: flex;
+  align-items: center;
   padding: 32px 227px 32px auto;
   list-style: none;
   text-decoration: none;
-  text-align: end;
 }
 
 .contact-data:not(:last-child) {
@@ -179,38 +186,47 @@ footer {
   color: var(--secondary-text-color);
 }
 
-.menu-images {
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
-.application {
+.menu-cards {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.website {
+.li-menu-cards {
+  padding: 30px;
+  flex-basis: calc ((100% - 2 * 30px) / 3);
 }
 
-.design {
+.li-button-portfolio:not(:last-child) {
+  margin-right: 8px;
 }
 
 .main-page-first-section {
-  width: 1200px;
-  text-align: center;
   background-color: #2f303a;
+  padding: 200px 452px 280px 452px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1 {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
   color: #ffffff;
-  padding: 200px 452px 280px 452px;
-  box-sizing: border-box;
-}
-
-.first-section-element {
-  box-sizing: border-box;
 }
 
 .assets {
   display: flex;
   list-style: none;
   padding: 0 215px 0 215px;
+  align-content: center;
 }
 .assets-title {
   font-size: 14px;
