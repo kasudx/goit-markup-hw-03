@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
   box-sizing: border-box;
+  margin: 0;
 }
 
 .container {
@@ -29,6 +30,9 @@ body {
 address {
   font-style: normal;
   text-decoration: none;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: auto;
 }
 
 header {
@@ -48,6 +52,12 @@ header {
 .logo {
   padding: 24px auto 25px 215px;
   margin-right: 93px;
+  margin-top: 0;
+}
+
+.logo-footer {
+  margin-top: 0;
+  padding: 60px auto 161px 215px;
 }
 
 .nav-elements:not(:last-child) {
@@ -65,7 +75,8 @@ header {
 }
 
 .logo-and-nav-el {
-  padding-left: 215px;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .contacts {
@@ -110,6 +121,8 @@ header {
 
 footer {
   background-color: #2f303a;
+
+  padding: 60px auto 161px auto;
 }
 
 .footer-contact-data-email {
@@ -202,11 +215,19 @@ footer {
   padding: 20px 24px 20px 24px;
 }
 
-.menu-bottoms {
+.menu-buttons {
   list-style: none;
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 34px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  padding-left: 0;
+}
+
+.button-portfolio {
+  padding: 6px 22px;
 }
 
 .menu-cards {
@@ -232,7 +253,10 @@ footer {
   background-color: #2f303a;
   padding: 200px 452px 280px 452px;
   box-sizing: border-box;
+  justify-content: center;
   text-align: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 h1 {
@@ -241,13 +265,13 @@ h1 {
   line-height: 1.4;
   color: #ffffff;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 
 .assets {
   display: flex;
   list-style: none;
-  padding: 0 215px 0 215px;
+  padding: 0;
   align-content: center;
   margin-top: 0;
   margin-bottom: 0;
@@ -266,12 +290,19 @@ h3 {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
+  text-align: left;
 }
 
 .sales-offer {
   list-style: none;
   display: flex;
   justify-content: center;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.sales-offer-section {
+  padding-top: 0;
 }
 
 .sales-offer-element {
@@ -299,6 +330,7 @@ h2 {
   list-style: none;
   display: flex;
   justify-content: center;
+  padding-left: 0;
 }
 
 .our-team-list-element:not(:last-child) {
